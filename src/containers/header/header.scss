@@ -1,0 +1,108 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.logo {
+    color: white;
+}
+
+.hunter {
+    color: rgb(241, 8, 78);
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+
+    .employers {
+        margin-left: 30px;
+    }
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.employers {
+        outline: none;
+        border: 0;
+        text-decoration: none;
+        padding: 0;
+        font-size: inherit;
+        background: transparent;
+        box-shadow: none;
+        cursor: pointer;
+        color: #fff;
+        line-height: inherit;
+}
+
+.create_a_resume {
+    line-height: 1.43;
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    padding: 0 12px;
+    font-family: inherit;
+    line-height: 38px;
+    color: #a3daa5;
+    border-radius: 20px;
+    border: 1px solid rgba(163, 218, 165, .5);
+    font-size: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 30px;
+    &:hover {
+        border-color: #a3daa5;
+    }
+}
+
+.to_com_in{
+    line-height: 1.43;
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    padding: 0 12px;
+    font-family: inherit;
+    line-height: 38px;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    font-size: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    &:hover {
+            border-color: #fff;
+    }
+}
